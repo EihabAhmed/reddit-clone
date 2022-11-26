@@ -1,4 +1,4 @@
-package com.bbk.redditclone.controller.dto;
+package com.bbk.redditclone.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,8 +7,8 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class RegisterRequest {
-    private String email;
+public class AuthenticationResponse {
+
+    private String authenticationToken;
     private String username;
-    private String password;
 }
